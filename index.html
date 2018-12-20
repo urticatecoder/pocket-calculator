@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pocket Calculator</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="main">
+      <form>
+        <table class="mainbody">
+          <tr>
+            <td colspan="4" class="textview"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="C" class="button" id="cpm"></td>
+            <td><input type="button" value="+/-" class="button" id="cpm"></td>
+            <td><input type="button" value="%" class="button" id="cpm"></td>
+            <td><input type="button" value="÷" class="button" id="op"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" class="button" onclick="clickNum(1)"></td>
+            <td><input type="button" value="2" class="button" onclick="clickNum(2)"></td>
+            <td><input type="button" value="3" class="button" onclick="clickNum(3)"></td>
+            <td><input type="button" value="*" class="button" id="op"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" class="button" onclick="clickNum(4)"></td>
+            <td><input type="button" value="5" class="button" onclick="clickNum(5)"></td>
+            <td><input type="button" value="6" class="button" onclick="clickNum(6)"></td>
+            <td><input type="button" value="-" class="button" id="op"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="7" class="button" onclick="clickNum(7)"></td>
+            <td><input type="button" value="8" class="button" onclick="clickNum(8)"></td>
+            <td><input type="button" value="9" class="button" onclick="clickNum(9)"></td>
+            <td><input type="button" value="+" class="button" id="op"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="button" value="0" class="zerobutton"></td>
+            <td><input type="button" value="." class="button"></td>
+            <td><input type="button" value="=" class="button" id="op"></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
