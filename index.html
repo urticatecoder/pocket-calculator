@@ -6,7 +6,7 @@
     <script src="script.js" type="text/javascript"></script>
   </head>
   <body>
-    <h1>Pocket Calculator</h1>
+    <h1 id="header">Pocket Calculator</h1>
     <div class="main">
       <form name="form">
         <input name="textview" class="textview" value = 0>
@@ -14,8 +14,8 @@
       <table class="mainbody">
         <tr>
           <td><input type="button" value="C" class="button" id="cpm" onclick="insert(99)"></td>
-          <td><input type="button" value="+/-" class="button" id="cpm"></td>
-          <td><input type="button" value="%" class="button" id="cpm"></td>
+          <td><input type="button" value="+/-" class="button" id="cpm" onclick="posneg()"></td>
+          <td><input type="button" value="%" class="button" id="cpm" onclick="insert('%')"></td>
           <td><input type="button" value="÷" class="button" id="op" onclick="insert('/')"></td>
         </tr>
         <tr>
