@@ -8,6 +8,9 @@ html{
 }
 #header{
   text-align: center;
+  font-family: verdana;
+  color: white;
+  font-size: 45px;
 }
 .button{
   width: 145px;
